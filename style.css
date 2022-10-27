@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    background-color: #1F2937;
+    color: white;
+}
+
+.secondSegment {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 20px;
+}
+
+.introText {
+    flex: 0 0 35%;
+    text-align: left;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
