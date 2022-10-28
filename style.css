@@ -1,43 +1,129 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Open Sans"
 }
 .head {
     background-color: #1F2937;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
 }
 
 .secondSegment {
     display: flex;
     justify-content: space-around;
-    width: 1000px;
+    align-items: center;
     margin: 20px;
+    padding: 0 140px;
+    gap: 100px;
 }
 
 .introText {
+    display: flex;
+    flex-direction: column;
     flex: 0 0 35%;
     text-align: left;
+    gap: 10px;
 }
 
 .navBar {
     display: flex;
     justify-content: space-around;
-    width: 1000px;
+    
 }
 
 a {
     text-decoration: none;
-    color: red;
+    color: rgb(214, 214, 214);
 }
 
+.headerLinks {
+    display: flex;
+    gap: 10px;
+}
 
+h5 {
+    color: rgb(196, 196, 196);
+    font-weight: 400;
+}
 
+button[type=button] {
+    width: 100px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
 
+.imageDisplay {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
 
+.randomInfo {
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+    font-weight: 900;
+}
 
+.imageDisplay > div {
+    text-align: center;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+}
 
+.justText {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
 
+.sectionFour {
+    display: flex;
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
 
+.containerFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
 
+.sectionFive {
+  margin-top: auto;
+  background-color: #1F2937;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
